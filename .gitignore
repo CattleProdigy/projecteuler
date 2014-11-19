@@ -26,3 +26,9 @@
 *.exe
 *.out
 *.app
+
+# User defined
+*.o
+*.un~
+*~
+*.swp
