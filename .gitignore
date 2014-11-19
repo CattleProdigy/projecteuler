@@ -32,3 +32,8 @@
 *.un~
 *~
 *.swp
+
+*
+!*.cpp
+!*.c
+!Makefile
