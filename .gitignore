@@ -37,3 +37,4 @@
 !*.cpp
 !*.c
 !Makefile
+pe-recovery.key
