@@ -22,6 +22,6 @@ listAbundantNumbersLessThan x = filter isAbundant [1..x]
 
 main = do putStrLn $ show $ sum $ toList nonSumsOfAbudants
     where abundantNumbers = listAbundantNumbersLessThan 28123
-          sumsOfAbundantNumbersList = [x + y | x <- abundantNumbers, y <- abundantNumbers];
+          sumsOfAbundantNumbersList = [x + y | x <- abundantNumbers, y <- abundantNumbers, x + y < 28123];
           sumsOfAbundantNumbersSet = fromList sumsOfAbundantNumbersList
           nonSumsOfAbudants = (fromList [1..28123]) \\ sumsOfAbundantNumbersSet
