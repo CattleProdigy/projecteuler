@@ -1,7 +1,3 @@
-# Haskell
-*.hs
-*.hi
-
 # Compiled Object files
 *.slo
 *.lo
@@ -40,5 +36,7 @@ main
 
 !*.cpp
 !*.c
+!*.hs
+!*.hi
 Makefile
 projectEulerRecoveryKey.txt
